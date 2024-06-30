@@ -15,7 +15,7 @@
     - Browser: Google Chorme
     - Version Control: Git and Github
 
-6.  Basic Structure of HTML
+## Basic Structure of HTML
 
     - head, body
 
@@ -41,3 +41,13 @@
 17. Entity
 
 - workflow: Home>About>skill(HTML, CSS, Javascript and PHP)
+
+## HTML Intermediate for apply Portfoli Website
+
+- Meta tag and SEO
+- Adding font-awesome icon and google font
+- Advanced Table
+- Advanced Form
+- Form data send to your email
+- Multimedia
+- html5 Element
