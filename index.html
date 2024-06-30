@@ -147,10 +147,18 @@
           </li>
         </ul>
       </section>
+      <!-- Video testing for learning -->
+      <video width="300" controls>
+        <source
+          src="https://www.youtube.com/watch?v=FZVOktWX6Nk&list=RDFZVOktWX6Nk&start_radio=1"
+          type="video/mp4"
+        />
+        Browser does not supported of type this video
+      </video>
       <!-- Section: Contacts  -->
       <section id="contact">
         <h2>Contact</h2>
-        <form action="">
+        <form action="https://formspree.io/f/xovaqvjn" method="POST">
           <div>
             <label for="name">Name </label>
             <input type="text" id="name" name="name" required />
@@ -161,7 +169,14 @@
           </div>
           <div>
             <label for="number">Age </label>
-            <input type="number" id="number" name="number" min="18" required />
+            <input
+              type="number"
+              id="number"
+              name="number"
+              min="18"
+              max="55"
+              required
+            />
           </div>
           <div>
             <label for="website"> Website </label>
@@ -173,8 +188,14 @@
             />
           </div>
           <div>
-            <label for="file">Photo upload </label>
-            <input type="file" id="file" name="file" required />
+            <label for="image">Photo upload </label>
+            <input
+              type="file"
+              id="image"
+              name="image"
+              accept="image/*"
+              required
+            />
           </div>
           <div>
             <label for="subject">Subject</label>
@@ -202,23 +223,36 @@
     </main>
     <!-- Footer  -->
     <footer>
+      <div>
+        <a href="tel:+8801738557347">Call Me</a>
+        <a href="mailto:nure.alam91@gmail.com">EMail Me</a>
+        <a href="https://github.com/dashboard">GitHub Contact</a>
+        <h3>Follow Me</h3>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com"
+              ><i class="fa-brands fa-facebook"></i>Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com"
+              ><i class="fa-brands fa-youtube"></i>Visit My Youtube Channel</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5165.880410279425!2d90.34345077653876!3d23.717797363353874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf1d30f17989%3A0x79d57941403e1bf6!2sShikaritola%20Rd%2C%20Bamonsur!5e0!3m2!1sen!2sbd!4v1719779499569!5m2!1sen!2sbd"
+          width="300"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
       <p>Copyright reserved by &copy; Nure alam siddiqe</p>
-      <a href="tel:+8801738557347">Call Me</a>
-      <a href="mailto:nure.alam91@gmail.com">EMail Me</a>
-      <a href="https://github.com/dashboard">GitHub Contact</a>
-      <h3>Follow Me</h3>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com"
-            ><i class="fa-brands fa-facebook"></i>Facebook</a
-          >
-        </li>
-        <li>
-          <a href="https://www.youtube.com"
-            ><i class="fa-brands fa-youtube"></i>Visit My Youtube Channel</a
-          >
-        </li>
-      </ul>
     </footer>
   </body>
 </html>
