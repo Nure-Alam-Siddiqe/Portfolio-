@@ -3,138 +3,193 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="I am software developer who name is Nure Alam Siddique and my Portfolio
+    website"
+    />
+    <meta
+      name="keywords"
+      content="Portfolio , Nure alam, portfolio, siddique, html, basic html"
+    />
+    <!-- Font Awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
+    <style>
+      body {
+        background-color: rgba(219, 215, 211, 0.897);
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
   </head>
+
   <body>
     <!-- Section: Navigation -->
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skill">Skill</a></li>
-        <li>
-          <a href="#project">Project</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- Section: Intro -->
-    <header id="home">
-      <h1>Md. Nure-Alam Siddiqe</h1>
-      <p>
-        <em
-          >I am Web Deveper with programming language is HTML, CSS , Javascript
-          and PHP</em
-        >
-      </p>
-      <a href="https://github.com/Nure-Alam-Siddiqe/Portfolio-"
-        ><img
-          src="./images/nurelam.jpg"
-          alt="Nure alam photo"
-          width="100"
-          height="150"
-      /></a>
-
-      <hr />
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li>
+            <a href="#project">Project</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <!-- Section: About Me  -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        <strong>Experience:</strong> 2 Years experience in Web Development and 7
-        Years experience in Teaching profession in High School
-      </p>
-      <p>
-        <strong>Education:</strong> Completed my Bacholor program in Electronics
-        & Communication Engineering and Master in Mathematics from Jahangirnagar
-        University.
-      </p>
-    </section>
-    <!-- Section: Skill  -->
-    <section id="skill">
-      <h2>Skills:</h2>
-      <table border="1" cellspacing="0" cellpadding="5">
-        <thead>
-          <th>Technology</th>
-          <th>Profficiency</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>Expert</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>Basic</td>
-          </tr>
-          <tr>
-            <td>Javascript</td>
-            <td>Intermediate</td>
-          </tr>
-        </tbody>
-      </table>
-      <!-- <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>
-          Javascript
-          <ol>
-            <li>Node Js</li>
-            <li>Express Js</li>
-            <li>React</li>
-            <li>Angular</li>
-            <li>Vue Js</li>
-          </ol>
-        </li>
-        <li>PHP</li>
-        <li>Laravel</li>
-        <li>Mongodb</li>
-        <li>Git and Github</li>
-      </ul> -->
-    </section>
-    <!-- Section: Projects  -->
-    <section id="project">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/Nure-Alam-Siddiqe/Portfolio-"
-            >Portfolio Website</a
+    <!-- main content  -->
+    <main>
+      <!-- Section: Intro -->
+      <section id="home">
+        <h1>Md. Nure-Alam Siddiqe</h1>
+        <p>
+          <em
+            >I am Web Deveper with programming language is HTML, CSS ,
+            Javascript and PHP</em
           >
-        </li>
-        <li>
-          <a href="">E-Commerce Website</a>
-        </li>
-      </ul>
-    </section>
-    <!-- Section: Contacts  -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <form action="">
-        <div>
-          <label for="name">Name </label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div>
-          <label for="message">Message</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        </div>
+        </p>
+        <a href="https://github.com/Nure-Alam-Siddiqe/Portfolio-"
+          ><img
+            src="./images/nurelam.jpg"
+            alt="Nure alam photo"
+            width="100"
+            height="150"
+        /></a>
 
-        <button type="submit">Send</button>
-        <button type="reset">Clear</button>
-      </form>
-    </section>
-    <!-- Section: Footer  -->
+        <hr />
+      </section>
+      <!-- Section: About Me  -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          <strong>Experience:</strong> 2 Years experience in Web Development and
+          7 Years experience in Teaching profession in High School
+        </p>
+        <p>
+          <strong>Education:</strong> Completed my Bacholor program in
+          Electronics & Communication Engineering and Master in Mathematics from
+          Jahangirnagar University.
+        </p>
+      </section>
+      <!-- Section: Skills  -->
+      <section id="skills">
+        <h2>Skills:</h2>
+        <table border="1" cellspacing="0" cellpadding="5">
+          <thead>
+            <th>Technology</th>
+            <th>Profficiency</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Expert</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Basic</td>
+            </tr>
+            <tr>
+              <td>Javascript</td>
+              <td>Intermediate</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>
+            Javascript
+            <ol>
+              <li>Node Js</li>
+              <li>Express Js</li>
+              <li>React</li>
+              <li>Angular</li>
+              <li>Vue Js</li>
+            </ol>
+          </li>
+          <li>PHP</li>
+          <li>Laravel</li>
+          <li>Mongodb</li>
+          <li>Git and Github</li>
+        </ul> -->
+      </section>
+      <!-- Section: Projects  -->
+      <section id="project">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/Nure-Alam-Siddiqe/Portfolio-"
+              >Portfolio Website</a
+            >
+          </li>
+          <li>
+            <a href="">E-Commerce Website</a>
+          </li>
+        </ul>
+      </section>
+      <!-- Section: Contacts  -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="">
+          <div>
+            <label for="name">Name </label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <button type="submit">Send</button>
+          <button type="reset">Clear</button>
+        </form>
+      </section>
+    </main>
+    <!-- Footer  -->
     <footer>
       <p>Copyright reserved by &copy; Nure alam siddiqe</p>
       <a href="tel:+8801738557347">Call Me</a>
       <a href="mailto:nure.alam91@gmail.com">EMail Me</a>
       <a href="https://github.com/dashboard">GitHub Contact</a>
+      <h3>Follow Me</h3>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com"
+            ><i class="fa-brands fa-facebook"></i>Facebook</a
+          >
+        </li>
+        <li>
+          <a href="https://www.youtube.com"
+            ><i class="fa-brands fa-youtube"></i>Visit My Youtube Channel</a
+          >
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
