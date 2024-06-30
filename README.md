@@ -47,7 +47,7 @@
 - Meta tag and SEO
 - Adding font-awesome icon and google font
 - Advanced Table
-- Advanced Form
+- Advanced Form (<input type attribute list: https://www.w3schools.com/tags/att_input_type.asp>)
 - Form data send to your email
 - Multimedia
 - html5 Element
