@@ -33,10 +33,11 @@
     - div, span
 10. Text formatting tags
 11. List
-12. Ling
+12. Link and
 13. Image
 14. Table
 15. Form
 16. Deploy
+17. Entity
 
 - workflow: Home>About>skill(HTML, CSS, Javascript and PHP)

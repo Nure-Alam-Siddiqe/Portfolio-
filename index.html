@@ -24,9 +24,19 @@
     <header id="home">
       <h1>Md. Nure-Alam Siddiqe</h1>
       <p>
-        I am Web Deveper with programming language is HTML, CSS , Javascript and
-        PHP
+        <em
+          >I am Web Deveper with programming language is HTML, CSS , Javascript
+          and PHP</em
+        >
       </p>
+      <a href="https://github.com/Nure-Alam-Siddiqe/Portfolio-"
+        ><img
+          src="../images/nurelam.jpg"
+          alt="Nure alam photo"
+          width="100"
+          height="150"
+      /></a>
+
       <hr />
     </header>
     <!-- Section: About Me  -->
@@ -45,7 +55,27 @@
     <!-- Section: Skill  -->
     <section id="skill">
       <h2>Skills:</h2>
-      <ul>
+      <table border="1" cellspacing="0">
+        <thead>
+          <th>Technology</th>
+          <th>Profficiency</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Expert</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Basic</td>
+          </tr>
+          <tr>
+            <td>Javascript</td>
+            <td>Intermediate</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>
@@ -62,7 +92,7 @@
         <li>Laravel</li>
         <li>Mongodb</li>
         <li>Git and Github</li>
-      </ul>
+      </ul> -->
     </section>
     <!-- Section: Projects  -->
     <section id="project">
@@ -73,12 +103,38 @@
             >Portfolio Website</a
           >
         </li>
+        <li>
+          <a href="">E-Commerce Website</a>
+        </li>
       </ul>
     </section>
     <!-- Section: Contacts  -->
     <section id="contact">
       <h2>Contact</h2>
+      <form action="">
+        <div>
+          <label for="name">Name </label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+      </form>
     </section>
     <!-- Section: Footer  -->
+    <footer>
+      <p>Copyright reserved by &copy; Nure alam siddiqe</p>
+      <a href="tel:+8801738557347">Call Me</a>
+      <a href="mailto:nure.alam91@gmail.com">EMail Me</a>
+      <a href="https://github.com/dashboard">GitHub Contact</a>
+    </footer>
   </body>
 </html>
