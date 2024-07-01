@@ -49,5 +49,5 @@
 - Advanced Table
 - Advanced Form (<input type attribute list: https://www.w3schools.com/tags/att_input_type.asp>)
 - Form data send to your email (form submitted checking: https://formspree.io/forms/xovaqvjn/integration)
-- Multimedia
-- html5 Element
+- Multimedia : Video, audio, Google Map Adding
+- html5 Element : progress, meter, header, nav, footer etc
