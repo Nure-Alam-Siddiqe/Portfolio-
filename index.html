@@ -172,37 +172,42 @@
           </li>
         </ul>
       </section>
-      <!-- Video testing for learning -->
-      <video width="300" controls>
-        <source
-          src="https://www.youtube.com/watch?v=FZVOktWX6Nk&list=RDFZVOktWX6Nk&start_radio=1"
-          type="video/mp4"
-        />
-        Browser does not supported of type this video
-      </video>
+      <!-- section: Video testing for learning  -->
+      <section id="video">
+        <video width="300" controls>
+          <source
+            src="https://www.youtube.com/watch?v=FZVOktWX6Nk&list=RDFZVOktWX6Nk&start_radio=1"
+            type="video/mp4"
+          />
+          Browser does not supported of type this video
+        </video>
+      </section>
       <!-- Section: Contacts  -->
       <section id="contact">
         <h2>Contact</h2>
         <form action="https://formspree.io/f/xovaqvjn" method="POST">
-          <div>
-            <label for="name">Name </label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div>
-            <label for="number">Age </label>
-            <input
-              type="number"
-              id="number"
-              name="number"
-              min="18"
-              max="55"
-              required
-            />
-          </div>
+          <fieldset id="personal_info">
+            <legend>Personal information</legend>
+            <div>
+              <label for="name">Name </label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="number">Age </label>
+              <input
+                type="number"
+                id="number"
+                name="number"
+                min="18"
+                max="55"
+                required
+              />
+            </div>
+          </fieldset>
           <div>
             <label for="website"> Website </label>
             <input
@@ -221,6 +226,18 @@
               accept="image/*"
               required
             />
+          </div>
+          <div>
+            <label for="programming">Favourite Language : </label>
+            <input list="language" id="programming" name="programming" />
+            <datalist id="language">
+              <option value="C"></option>
+              <option value="C++"></option>
+              <option value="Java"></option>
+              <option value="JavaScript"></option>
+              <option value="PHP"></option>
+              <option value="C#"></option>
+            </datalist>
           </div>
           <div>
             <label for="subject">Subject</label>

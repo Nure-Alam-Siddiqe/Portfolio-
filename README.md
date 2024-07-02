@@ -51,3 +51,21 @@
 - Form data send to your email (form submitted checking: https://formspree.io/forms/xovaqvjn/integration)
 - Multimedia : Video, audio, Google Map Adding
 - html5 Element : progress, meter, header, nav, footer etc
+- deploy in Netlify
+
+## Advanced HTML Learning
+
+- more advanced form (<input type=" => https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input"), datalist, fieldset,legend
+- Web accessibility
+  - use Semantic tag
+  - use lang attribute
+  - use heading tags in order (h1u2-h3)
+  - use alt attribute for image
+  - contrast ratio
+  - use meaningful link text
+  - label(for) + input(id)
+  - meta tag: desc, keywords
+- HTML5 API
+- HTML Templates and web components
+- source for symbols, icon, emojis, colors
+- Learning resources
